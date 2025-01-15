@@ -6,7 +6,7 @@
 .container{
     display: flex;
     flex-direction: column;
-    
+    margin-top: 25vh;
     align-items: center;
     gap: 50px;
 }
@@ -49,4 +49,10 @@ button:hover{
     transition: 0.3s ease;
     transform: scale(1.1);
 
+}
+@media (max-width:477px) {
+    .container{
+        margin-top: 25vh;
+        
+    }
 }
